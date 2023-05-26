@@ -1,0 +1,1 @@
+alert("Hello, You will get better days!")

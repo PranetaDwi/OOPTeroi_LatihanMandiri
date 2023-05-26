@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tugas3.css">
+    <script src="tugas3.js"></script>
+    <title>SIMPLE CALCULATOR</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__output" id="result">0</div>
+        <div class="cal_keys">
+          <button class="cal_key " onclick="operasi(7)">7</button>
+          <button class="cal_key " onclick="operasi(8)">8</button>
+          <button class="cal_key " onclick="operasi(9)">9</button>
+          <button class="cal_key cal_key--operator" onclick="del()">DEL</button>
+          <button class="cal_key" onclick="operasi(4)">4</button>
+          <button class="cal_key" onclick="operasi(5)">5</button>
+          <button class="cal_key" onclick="operasi(6)">6</button>
+          <button class="cal_key cal_key--operator" onclick="operasi('+')">+</button>
+          <button class="cal_key" onclick="operasi(1)">1</button>
+          <button class="cal_key" onclick="operasi(2)">2</button>
+          <button class="cal_key" onclick="operasi(3)">3</button>
+          <button class="cal_key cal_key--operator" onclick="operasi('-')">-</button>
+          <button class="cal_key" onclick="operasi('.')">.</button>
+          <button class="cal_key" onclick="operasi(0)">0</button>
+          <button class="cal_key cal_key--operator" onclick="operasi('÷')">÷</button>
+          <button class="cal_key cal_key--operator" onclick="operasi('x')">x</button>
+          <button class="cal_key cal_key--enter1" onclick="delAll()">AC</button>
+          <button class="cal_key cal_key--enter2" onclick="hasil()">=</button>
+        </div>
+      </div>
+</body>
+</html>

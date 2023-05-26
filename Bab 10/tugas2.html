@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menampilkan Output</title>
+    <script>
+        alert("Welcome to our beloved Website");
+        function pilihan(){
+            alert("Congratulations, your passed the day well");
+        }
+
+        document.write("<h2>GOOD VIBES ONLY</h2>")
+    </script>
+</head>
+<body>
+    <!--dengan console log udah ada di websitenya-->
+    <!--dengan alert-->
+    <button onclick="pilihan()">Click Me!</button>
+    <!--dengan inner-->
+    <div id="cobacoba"></div>
+    <script>
+        var hasil = document.getElementById("cobacoba")
+        hasil.innerHTML="<h4>The Vibes is so Good</h4>"
+    </script>
+</body>
+</html>
